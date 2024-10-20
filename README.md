@@ -99,3 +99,8 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for more 
 ## Contributing
 
 Feel free to open an issue or submit a pull request to improve the module.
+
+## Author:  
+thomas joseph
+- [linkedin](https://www.linkedin.com/in/thomas-joseph-88792b132/)
+- [medium](https://medium.com/@thomasvjoseph)
