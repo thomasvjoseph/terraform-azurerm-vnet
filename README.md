@@ -1,7 +1,3 @@
-Here's a `README.md` file for your Terraform module, which you can include when publishing to the Terraform Registry:
-
----
-
 # Azure Virtual Network and Subnet Terraform Module
 
 This Terraform module provisions an Azure Virtual Network (VNet) and multiple subnets with various configurations. The module supports the following features:
