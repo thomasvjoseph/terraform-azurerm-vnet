@@ -76,11 +76,12 @@ module "azure_vnet" {
 
 ## Module Outputs
 
-| Name                  | Description |
-|-----------------------|-------------|
+| Name                   | Description |
+|------------------------|-------------|
 | `virtual_network_id`   | The ID of the created virtual network. |
 | `subnet_ids`           | A map of subnet names to subnet IDs. |
 | `public_subnet_id`     | A map of public subnet names to subnet IDs where `is_private` is `false`. |
+| `private_subnet_id`    | A map of public subnet names to subnet IDs where `is_private` is `true`. |
 
 ## Example Subnet Configuration
 

@@ -10,5 +10,11 @@ output "subnet_ids" {
 }
 
 output "public_subnet_id" {
+    description = "The ID of the public subnet."
     value = { for k, v in azurerm_subnet.subnets : k => v.id if var.subnets[k].is_private == false }
+}
+
+output "private_subnet_id" {
+    description = "The ID of the private subnet."
+    value = { for k, v in azurerm_subnet.subnets : k => v.id if var.subnets[k].is_private == true }
 }
